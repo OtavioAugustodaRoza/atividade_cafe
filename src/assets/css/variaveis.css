@@ -1,0 +1,62 @@
+/* pedi pro chat essa paleta de cores e as variaveis (: */
+
+:root {
+    /* ========= Cores principais ========= */
+  
+    --color-primary: #6F4E37;      /* Marrom café */
+    --color-primary-dark: #4B2E1F; /* Marrom escuro */
+    --color-secondary: #C49A6C;    /* Caramelo */
+  
+    /* ========= Fundo ========= */
+  
+    --color-background: #F8F5F2;   /* Creme claro */
+    --color-surface: #FFFFFF;      /* Cards */
+    --color-surface-dark: #EFE7DE; /* Seções */
+  
+    /* ========= Texto ========= */
+  
+    --color-text: #2E2E2E;
+    --color-text-light: #6B7280;
+    --color-white: #FFFFFF;
+  
+    /* ========= Destaque ========= */
+  
+    --color-success: #6A994E;
+    --color-warning: #D97706;
+    --color-danger: #B91C1C;
+  
+    /* ========= Bordas ========= */
+  
+    --color-border: #DDD6CE;
+  
+    /* ========= Sombras ========= */
+  
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.18);
+  
+    /* ========= Bordas ========= */
+  
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+  
+    /* ========= Espaçamentos ========= */
+  
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+  
+    /* ========= Transições ========= */
+  
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+  
+    /* ========= Fonte ========= */
+  
+    --font-family: "Poppins", sans-serif;
+  }

@@ -1,0 +1,27 @@
+@import './reset.css';
+@import './variaveis.css';
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+button {
+  transition: var(--transition-normal);
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
