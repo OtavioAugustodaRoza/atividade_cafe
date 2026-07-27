@@ -1,44 +1,27 @@
-# atividade_cafe
+# Coffee Challenge
 
-This template should help get you started developing with Vue 3 in Vite.
+> **Aviso importante:** este repositório existe por um único motivo: **entregar a atividade** do curso Técnico em Informática. 
 
-## Recommended IDE Setup
+O **Coffee Challenge** é um projeto desenvolvido como atividade acadêmica da disciplina de Desenvolvimento Web do **Curso Técnico em Informática**.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+O objetivo é aplicar na prática conceitos de **Vue.js**, componentes, rotas, organização de projetos, reutilização de código e estilização de interfaces.
 
-## Recommended Browser Setup
+Se você chegou aqui procurando algo fora do comum não vai ser nesse projeto...
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Mas, enquanto isso, o projeto cumpre muito bem sua missão: **garantir a minha nota em desweb.**
 
-## Customize configuration
+## Tecnologias
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Vue 3
+* Vite
+* Vue Router
+* CSS3
+* Lucide Vue
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+### Desenvolvido por
 
-### Compile and Hot-Reload for Development
+**Otávio Augusto da Roza**
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+*Projeto desenvolvido para fins acadêmicos como atividade do Curso Técnico em Informática.*
