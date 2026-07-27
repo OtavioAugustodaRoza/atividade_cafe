@@ -1,13 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { CoffeeIcon } from '@lucide/vue';
+import { CoffeeIcon } from '@lucide/vue'
 </script>
 
 <template>
   <header class="header">
     <div class="container">
-    <CoffeeIcon :size="32" />
-
+      <div class="logo">
+        <CoffeeIcon :size="30" />
+        <h2>Coffee Challenge</h2>
+      </div>
 
       <nav class="nav">
         <RouterLink to="/">Home</RouterLink>
@@ -18,11 +20,21 @@ import { CoffeeIcon } from '@lucide/vue';
   </header>
 
   <main class="container">
-    <RouterView />
+    <Transition name="fade" mode="out-in">
+      <RouterView />
+    </Transition>
   </main>
+  <footer></footer>
 </template>
 
 <style scoped>
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 .header {
   background: var(--color-primary);
   color: var(--color-white);
@@ -41,7 +53,6 @@ import { CoffeeIcon } from '@lucide/vue';
   align-items: center;
 }
 
-
 .nav {
   display: flex;
   gap: 2rem;
@@ -50,28 +61,27 @@ import { CoffeeIcon } from '@lucide/vue';
 .nav a {
   color: var(--color-white);
   font-weight: 500;
-  transition: var(--transition-normal); 
+  transition: var(--transition-normal);
   position: relative;
-  &:hover{
+  &:hover {
     opacity: 1;
   }
- 
 }
-a::before{
-  content: "";
-  width: 0;  
+a::before {
+  content: '';
+  width: 0;
   height: 2px;
   left: 0;
   position: absolute;
   background-color: var(--color-secondary);
   bottom: -2px;
-  transition: var(--transition-normal); 
+  transition: var(--transition-normal);
 }
 a:hover::before {
   width: 100%;
 }
 .router-link-active {
-  opacity: .7;
+  opacity: 0.7;
 }
 main {
   padding: 2rem 0;
