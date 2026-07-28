@@ -32,7 +32,7 @@
     />
   </div>
 
-  <button class="btn">Avaliar Cafés</button>
+  <button class="btn" @click="irParaAvaliar">Avaliar Cafés</button>
 
   <div class="sobre">
     <InfoCard
@@ -47,6 +47,12 @@
 import InfoCard from '@/components/infoCard.vue'; 
 import { Coffee, Star, Timer } from  '@lucide/vue'
 import coffeBanner from '@/assets/images/coffeBanner.png'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+function irParaAvaliar() {
+  router.push('/avaliacoes')
+}
 </script>
 
 <style scoped>
