@@ -24,7 +24,11 @@ import { CoffeeIcon } from '@lucide/vue'
       <RouterView />
     </Transition>
   </main>
-  <footer></footer>
+  <footer>
+    <h2>Coffee Quality Challenge &copy; 2026</h2>
+    <span>Sistema acadêmico para avaliação de cafés especiais</span>
+
+  </footer>
 </template>
 
 <style scoped>
@@ -85,5 +89,11 @@ a:hover::before {
 }
 main {
   padding: 2rem 0;
+}
+
+footer{
+  text-align: center;
+  background: var(--color-primary);
+  color: var(--color-white);
 }
 </style>
