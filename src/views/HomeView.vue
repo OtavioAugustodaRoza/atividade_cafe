@@ -43,11 +43,11 @@
 </section>
 </template>
 
-<script setup>
-import InfoCard from '@/components/infoCard.vue'; 
+<script setup> 
 import { Coffee, Star, Timer } from  '@lucide/vue'
 import coffeBanner from '@/assets/images/coffeBanner.png'
 import { useRouter } from 'vue-router'
+import InfoCard from '@/components/InfoCard.vue';
 
 const router = useRouter()
 function irParaAvaliar() {
